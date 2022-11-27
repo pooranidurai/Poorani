@@ -16,9 +16,9 @@ let n=rev(num);
 let k=n*n;
 if(m==k)
 {
-    document.write("Adam number");
+    console.log("Adam number");
 }
 else
 {
-    document.write("Not adam number");
+    console.log("Not adam number");
 }
