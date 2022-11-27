@@ -1,0 +1,20 @@
+let n=6,fact=1,rem,count=0;
+let i;
+for(i=1;i<=n;i++)
+{
+    fact=fact*i;
+}
+while(fact>0)
+{
+    rem=fact%10;
+    if(rem==0)
+    {
+        count++;
+    }
+    else
+    {
+        break;
+    }
+    fact=Math.floor(fact/10);
+}
+console.log(count);
